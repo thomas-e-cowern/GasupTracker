@@ -9,7 +9,10 @@ import SwiftUI
 
 struct ReportsView: View {
     var body: some View {
-        Text("History View")
+        ZStack {
+            Color("LightGrey").ignoresSafeArea()
+            Text("Reports View")
+        }
     }
 }
 

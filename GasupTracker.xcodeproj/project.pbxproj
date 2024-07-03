@@ -12,7 +12,10 @@
 		4DF4B8FE2C0FC93F00622F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF4B8FD2C0FC93F00622F24 /* Assets.xcassets */; };
 		4DF4B9012C0FC93F00622F24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF4B9002C0FC93F00622F24 /* Preview Assets.xcassets */; };
 		4DF4B9092C0FCA8200622F24 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4B9082C0FCA8200622F24 /* HomeView.swift */; };
-		4DF4B90B2C0FCA9400622F24 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4B90A2C0FCA9400622F24 /* HistoryView.swift */; };
+		4DF4B90B2C0FCA9400622F24 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4B90A2C0FCA9400622F24 /* ReportsView.swift */; };
+		4DF764192C35D5D400B6AD0A /* MileageTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF764182C35D5D400B6AD0A /* MileageTrackerView.swift */; };
+		4DF7641B2C35D5E600B6AD0A /* GasCostEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7641A2C35D5E500B6AD0A /* GasCostEntryView.swift */; };
+		4DF7641D2C35D5F300B6AD0A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7641C2C35D5F300B6AD0A /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +25,10 @@
 		4DF4B8FD2C0FC93F00622F24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DF4B9002C0FC93F00622F24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DF4B9082C0FCA8200622F24 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		4DF4B90A2C0FCA9400622F24 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		4DF4B90A2C0FCA9400622F24 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		4DF764182C35D5D400B6AD0A /* MileageTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MileageTrackerView.swift; sourceTree = "<group>"; };
+		4DF7641A2C35D5E500B6AD0A /* GasCostEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasCostEntryView.swift; sourceTree = "<group>"; };
+		4DF7641C2C35D5F300B6AD0A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				4DF4B9082C0FCA8200622F24 /* HomeView.swift */,
-				4DF4B90A2C0FCA9400622F24 /* HistoryView.swift */,
+				4DF4B90A2C0FCA9400622F24 /* ReportsView.swift */,
+				4DF764182C35D5D400B6AD0A /* MileageTrackerView.swift */,
+				4DF7641A2C35D5E500B6AD0A /* GasCostEntryView.swift */,
+				4DF7641C2C35D5F300B6AD0A /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,9 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF7641D2C35D5F300B6AD0A /* SettingsView.swift in Sources */,
 				4DF4B9092C0FCA8200622F24 /* HomeView.swift in Sources */,
-				4DF4B90B2C0FCA9400622F24 /* HistoryView.swift in Sources */,
+				4DF4B90B2C0FCA9400622F24 /* ReportsView.swift in Sources */,
+				4DF7641B2C35D5E600B6AD0A /* GasCostEntryView.swift in Sources */,
 				4DF4B8FC2C0FC93D00622F24 /* ContentView.swift in Sources */,
+				4DF764192C35D5D400B6AD0A /* MileageTrackerView.swift in Sources */,
 				4DF4B8FA2C0FC93D00622F24 /* GasupTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

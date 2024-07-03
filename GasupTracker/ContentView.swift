@@ -14,10 +14,25 @@ struct ContentView: View {
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
-            HistoryView()
+            MileageTrackerView()
                 .tabItem {
-                    Label("History", systemImage: "list.clipboard")
+                    Label("Tracker", systemImage: "signpost.right.circle")
                 }
+            GasCostEntryView()
+                .tabItem {
+                    Label(
+                        "Costs", systemImage: "dollarsign.circle"
+                    )
+                }
+            ReportsView()
+                .tabItem {
+                    Label("Reports", systemImage: "list.clipboard")
+                }
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gearshape.circle")
+                }
+            
         }
     }
 }

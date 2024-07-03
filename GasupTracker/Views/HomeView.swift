@@ -11,7 +11,34 @@ struct HomeView: View {
     var body: some View {
         ZStack {
             Color("LightGrey").ignoresSafeArea()
-            Text("Home View")
+            VStack {
+                VStack {
+                    Text("Gasup Tracker")
+                        .font(.largeTitle)
+                    
+                    Spacer()
+                    
+                    Text("Quick Entry")
+                        .font(.title2)
+                }
+                HStack {
+                    Button {
+                        // Quick entry mileage
+                    } label: {
+                        Text("Mileage")
+                    }
+                    .buttonStyle(GasupButtonStyle())
+                    
+                    Button {
+                        // Quick entry gas
+                    } label: {
+                        Text("Gas")
+                    }
+                    .buttonStyle(GasupButtonStyle())
+                }
+                .padding(10)
+            }
+            
         }
     }
 }

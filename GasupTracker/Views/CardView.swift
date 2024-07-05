@@ -30,10 +30,11 @@ struct CardView: View {
                 .font(.subheadline)
                 .foregroundStyle(Color.white)
         }
-        .background(Color("LightGreen"))
+        
         
         .padding(10)
         .frame(maxWidth: .infinity)
+        .background(Color("LightGreen"))
         .cardBackground()
     }
 }

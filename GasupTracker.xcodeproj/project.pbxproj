@@ -17,6 +17,8 @@
 		4DF7641B2C35D5E600B6AD0A /* GasCostEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7641A2C35D5E500B6AD0A /* GasCostEntryView.swift */; };
 		4DF7641D2C35D5F300B6AD0A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7641C2C35D5F300B6AD0A /* SettingsView.swift */; };
 		4DF764222C35E0B200B6AD0A /* GasupButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF764212C35E0B200B6AD0A /* GasupButtonStyle.swift */; };
+		4DF764242C38954700B6AD0A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF764232C38954700B6AD0A /* CardView.swift */; };
+		4DF764272C38977600B6AD0A /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF764262C38977600B6AD0A /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		4DF7641A2C35D5E500B6AD0A /* GasCostEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasCostEntryView.swift; sourceTree = "<group>"; };
 		4DF7641C2C35D5F300B6AD0A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		4DF764212C35E0B200B6AD0A /* GasupButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasupButtonStyle.swift; sourceTree = "<group>"; };
+		4DF764232C38954700B6AD0A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4DF764262C38977600B6AD0A /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 		4DF4B8F82C0FC93D00622F24 /* GasupTracker */ = {
 			isa = PBXGroup;
 			children = (
+				4DF764252C38975500B6AD0A /* Extensions */,
+				4DF7641E2C35E06400B6AD0A /* Styles */,
 				4DF4B9072C0FCA7000622F24 /* Views */,
 				4DF4B8F92C0FC93D00622F24 /* GasupTrackerApp.swift */,
 				4DF4B8FB2C0FC93D00622F24 /* ContentView.swift */,
@@ -83,12 +89,12 @@
 		4DF4B9072C0FCA7000622F24 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4DF7641E2C35E06400B6AD0A /* Styles */,
 				4DF4B9082C0FCA8200622F24 /* HomeView.swift */,
 				4DF4B90A2C0FCA9400622F24 /* ReportsView.swift */,
 				4DF764182C35D5D400B6AD0A /* MileageTrackerView.swift */,
 				4DF7641A2C35D5E500B6AD0A /* GasCostEntryView.swift */,
 				4DF7641C2C35D5F300B6AD0A /* SettingsView.swift */,
+				4DF764232C38954700B6AD0A /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,6 +105,14 @@
 				4DF764212C35E0B200B6AD0A /* GasupButtonStyle.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		4DF764252C38975500B6AD0A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4DF764262C38977600B6AD0A /* View+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +192,8 @@
 				4DF4B8FC2C0FC93D00622F24 /* ContentView.swift in Sources */,
 				4DF764192C35D5D400B6AD0A /* MileageTrackerView.swift in Sources */,
 				4DF764222C35E0B200B6AD0A /* GasupButtonStyle.swift in Sources */,
+				4DF764242C38954700B6AD0A /* CardView.swift in Sources */,
+				4DF764272C38977600B6AD0A /* View+Extensions.swift in Sources */,
 				4DF4B8FA2C0FC93D00622F24 /* GasupTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,6 +17,8 @@ struct HomeView: View {
                         .font(.largeTitle)
                     
                     Spacer()
+                
+                    CardView(title: "Cost", value: "$23.45")
                     
                     Text("Quick Entry")
                         .font(.title2)

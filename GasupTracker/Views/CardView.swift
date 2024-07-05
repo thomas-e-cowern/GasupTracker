@@ -25,11 +25,15 @@ struct CardView: View {
         VStack {
             Text(title)
                 .font(.headline)
+                .foregroundStyle(Color.white)
             Text(value)
                 .font(.subheadline)
+                .foregroundStyle(Color.white)
         }
-        .padding(30)
-        .frame(width: .infinity)
+        .background(Color("LightGreen"))
+        
+        .padding(10)
+        .frame(maxWidth: .infinity)
         .cardBackground()
     }
 }

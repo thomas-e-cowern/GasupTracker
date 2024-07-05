@@ -12,50 +12,30 @@ struct HomeView: View {
         ZStack {
             Color("LightGrey").ignoresSafeArea()
             
-            VStack {
-                Text("Gasup Tracker")
-                    .font(.largeTitle)
-                
-                Spacer()
-                    .frame(height: 50)
-                
-                Image("CarLeaves3")
-                    .resizable()
-                    .scaledToFit()
-                
-                Spacer()
-                    .frame(height: 50)
-                
-                VStack{
-                    Text("Monthly Totals")
-                        .font(.title2)
-                        .padding(.bottom, 10)
-                    CardView(title: "Cost", value: "$23.45")
-                    CardView(title: "Emissions", value: "$23.45")
-                    CardView(title: "Mileage", value: "$23.45")
-                }
-                .frame(height: 200)
-                .padding()
-                
-                Text("Quick Entry")
-                    .font(.title2)
-                
-                HStack {
-                    Button {
-                        // Quick entry mileage
-                    } label: {
-                        Text("Mileage")
+            GeometryReader { geo in
+                VStack {
+                    Text("Gasup Tracker")
+                        .font(.largeTitle)
+             
+                    Image("CarLeaves3")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: geo.size.height * 0.38)
+                    VStack{
+                        Text("Monthly Totals")
+                            .font(.title2)
+                            .padding(.bottom, 10)
+                        CardView(title: "Cost", value: "$23.45")
+                        CardView(title: "Emissions", value: "21 lb Co2")
+                        CardView(title: "Mileage", value: "22.1 miles")
                     }
-                    .buttonStyle(GasupButtonStyle())
+                    .frame(height: 200)
+                    .padding()
                     
-                    Button {
-                        // Quick entry gas
-                    } label: {
-                        Text("Gas")
-                    }
-                    .buttonStyle(GasupButtonStyle())
+                    QuickEntryView()
+                        .padding(.top, 10)
+                        .padding(.horizontal, 10)
                 }
-                .padding(10)
             }
         }
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3202A52C38B87A00B565DE /* QuickEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3202A42C38B87A00B565DE /* QuickEntryView.swift */; };
 		4DF4B8FA2C0FC93D00622F24 /* GasupTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4B8F92C0FC93D00622F24 /* GasupTrackerApp.swift */; };
 		4DF4B8FC2C0FC93D00622F24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4B8FB2C0FC93D00622F24 /* ContentView.swift */; };
 		4DF4B8FE2C0FC93F00622F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF4B8FD2C0FC93F00622F24 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D3202A42C38B87A00B565DE /* QuickEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickEntryView.swift; sourceTree = "<group>"; };
 		4DF4B8F62C0FC93D00622F24 /* GasupTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasupTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF4B8F92C0FC93D00622F24 /* GasupTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasupTrackerApp.swift; sourceTree = "<group>"; };
 		4DF4B8FB2C0FC93D00622F24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				4DF7641A2C35D5E500B6AD0A /* GasCostEntryView.swift */,
 				4DF7641C2C35D5F300B6AD0A /* SettingsView.swift */,
 				4DF764232C38954700B6AD0A /* CardView.swift */,
+				4D3202A42C38B87A00B565DE /* QuickEntryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF7641D2C35D5F300B6AD0A /* SettingsView.swift in Sources */,
+				4D3202A52C38B87A00B565DE /* QuickEntryView.swift in Sources */,
 				4DF4B9092C0FCA8200622F24 /* HomeView.swift in Sources */,
 				4DF4B90B2C0FCA9400622F24 /* ReportsView.swift in Sources */,
 				4DF7641B2C35D5E600B6AD0A /* GasCostEntryView.swift in Sources */,

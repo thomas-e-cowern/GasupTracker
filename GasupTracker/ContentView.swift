@@ -32,7 +32,6 @@ struct ContentView: View {
                 .tabItem {
                     Label("Settings", systemImage: "gearshape.circle")
                 }
-            
         }
         .tint(Color("LightGreen"))
     }

@@ -20,9 +20,7 @@ struct ContentView: View {
                 }
             GasCostEntryView()
                 .tabItem {
-                    Label(
-                        "Costs", systemImage: "dollarsign.circle"
-                    )
+                    Label("Costs", systemImage: "dollarsign.circle")
                 }
             ReportsView()
                 .tabItem {

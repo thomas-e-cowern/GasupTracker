@@ -9,23 +9,25 @@ import SwiftUI
 
 struct QuickEntryView: View {
     var body: some View {
-        Text("Quick Entry")
-            .font(.title2)
-        
-        HStack {
-            Button {
-                // Quick entry mileage
-            } label: {
-                Text("Mileage")
-            }
-            .buttonStyle(GasupButtonStyle())
+        NavigationStack {
+            Text("Quick Entry")
+                .font(.title2)
             
-            Button {
-                // Quick entry gas
-            } label: {
-                Text("Gas")
+            HStack {
+                NavigationLink {
+                    AddQuickEntryView(entryType: EntryType.mileage)
+                } label: {
+                    Text("Mileage")
+                }
+                .buttonStyle(GasupButtonStyle())
+                
+                NavigationLink {
+                    AddQuickEntryView(entryType: EntryType.gas)
+                } label: {
+                    Text("Gas")
+                }
+                .buttonStyle(GasupButtonStyle())
             }
-            .buttonStyle(GasupButtonStyle())
         }
     }
 }

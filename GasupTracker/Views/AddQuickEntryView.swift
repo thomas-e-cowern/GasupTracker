@@ -14,7 +14,7 @@ enum EntryType {
 
 struct AddQuickEntryView: View {
     
-    @State var entryType = EntryType.mileage
+    @State var entryType: EntryType? = EntryType.mileage
     
     var body: some View {
         switch entryType {
@@ -22,6 +22,8 @@ struct AddQuickEntryView: View {
             MileageEntryView()
         case .gas:
             GasEntryView()
+        case .none:
+            EmptyView()
         }
     }
 }

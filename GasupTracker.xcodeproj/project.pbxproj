@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D3202A52C38B87A00B565DE /* QuickEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3202A42C38B87A00B565DE /* QuickEntryView.swift */; };
+		4DC4C5352C4806BD00D83E3A /* AddQuickEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC4C5342C4806BD00D83E3A /* AddQuickEntryView.swift */; };
 		4DF4B8FA2C0FC93D00622F24 /* GasupTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4B8F92C0FC93D00622F24 /* GasupTrackerApp.swift */; };
 		4DF4B8FC2C0FC93D00622F24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4B8FB2C0FC93D00622F24 /* ContentView.swift */; };
 		4DF4B8FE2C0FC93F00622F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF4B8FD2C0FC93F00622F24 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		4D3202A42C38B87A00B565DE /* QuickEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickEntryView.swift; sourceTree = "<group>"; };
+		4DC4C5342C4806BD00D83E3A /* AddQuickEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuickEntryView.swift; sourceTree = "<group>"; };
 		4DF4B8F62C0FC93D00622F24 /* GasupTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasupTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF4B8F92C0FC93D00622F24 /* GasupTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasupTrackerApp.swift; sourceTree = "<group>"; };
 		4DF4B8FB2C0FC93D00622F24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				4DF7641C2C35D5F300B6AD0A /* SettingsView.swift */,
 				4DF764232C38954700B6AD0A /* CardView.swift */,
 				4D3202A42C38B87A00B565DE /* QuickEntryView.swift */,
+				4DC4C5342C4806BD00D83E3A /* AddQuickEntryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				4DF764192C35D5D400B6AD0A /* MileageTrackerView.swift in Sources */,
 				4DF764222C35E0B200B6AD0A /* GasupButtonStyle.swift in Sources */,
 				4DF764242C38954700B6AD0A /* CardView.swift in Sources */,
+				4DC4C5352C4806BD00D83E3A /* AddQuickEntryView.swift in Sources */,
 				4DF764272C38977600B6AD0A /* View+Extensions.swift in Sources */,
 				4DF4B8FA2C0FC93D00622F24 /* GasupTrackerApp.swift in Sources */,
 			);

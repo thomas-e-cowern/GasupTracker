@@ -13,28 +13,30 @@ struct HomeView: View {
             Color("LightGrey").ignoresSafeArea()
             
             GeometryReader { geo in
-                VStack {
-                    Text("Gasup Tracker")
-                        .font(.largeTitle)
-             
-                    Image("CarLeaves3")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(height: geo.size.height * 0.38)
-                    VStack{
-                        Text("Monthly Totals")
-                            .font(.title2)
-                            .padding(.bottom, 10)
-                        CardView(title: "Cost", value: "$23.45")
-                        CardView(title: "Emissions", value: "21 lb Co2")
-                        CardView(title: "Mileage", value: "22.1 miles")
+                ScrollView {
+                    VStack {
+                        Text("Gasup Tracker")
+                            .font(.largeTitle)
+                 
+                        Image("CarLeaves3")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(height: geo.size.height * 0.38)
+                        VStack{
+                            Text("Monthly Totals")
+                                .font(.title2)
+                                .padding(.bottom, 10)
+                            CardView(title: "Cost", value: "$23.45")
+                            CardView(title: "Emissions", value: "21 lb Co2")
+                            CardView(title: "Mileage", value: "22.1 miles")
+                        }
+                        .frame(height: 200)
+                        .padding()
+                        
+                        QuickEntryView()
+                            .padding(.top, 10)
+                            .padding(.horizontal, 10)
                     }
-                    .frame(height: 200)
-                    .padding()
-                    
-                    QuickEntryView()
-                        .padding(.top, 10)
-                        .padding(.horizontal, 10)
                 }
             }
         }

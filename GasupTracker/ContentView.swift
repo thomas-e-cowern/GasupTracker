@@ -16,7 +16,7 @@ struct ContentView: View {
                 }
             MileageTrackerView()
                 .tabItem {
-                    Label("Tracker", systemImage: "signpost.right.circle")
+                    Label("Mileage", systemImage: "signpost.right.circle")
                 }
             GasCostEntryView()
                 .tabItem {

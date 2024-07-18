@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct GasupTrackerApp: App {
@@ -13,5 +14,6 @@ struct GasupTrackerApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Mileage.self)
     }
 }

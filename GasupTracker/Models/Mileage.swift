@@ -6,8 +6,15 @@
 //
 
 import Foundation
+import SwiftData
 
-struct Mileage {
+@Model
+class Mileage {
     var miles: Double
     var date: Date
+    
+    init(miles: Double = 0.0, date: Date = .now) {
+        self.miles = miles
+        self.date = date
+    }
 }
